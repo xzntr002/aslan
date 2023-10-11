@@ -1,0 +1,66 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 25px 0px; 
+  
+}
+
+.header_top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 110px;
+
+}
+
+.header__info-img {
+    margin-top: 49px;
+}
+
+.header__right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__right-svg {
+    height: 25px;
+    width: auto;
+}
+
+.header__right-p {
+    margin-left: 10px;
+}
+
+.show-rooms {
+    display: flex;
+    flex-direction: row;
+}
+
+.header__right-svg.basket {
+    margin-left: 46px;
+}
+.header__info-img img {
+    width: 100%;
+}
